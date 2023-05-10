@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Instrument+Serif:ital@0;1&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+h1{
+  position: fixed;
+  padding: 50px 50px 50px 110px;
+  font-family: 'Instrument Serif', serif;
+  font-style: italic;
+  font-size: 3vw;
+  color: white;
+}
+
+h2{
+  position: fixed;
+  font-size: 18px;
+  font-family: 'Instrument Serif', serif;
+  width: 18vw;
+  padding: 160px 0px 0px 110px;
+  color: white;
+}
+
+#input-container {
+  position: fixed;
+  bottom: 20px;
+  left: 420px;
+  display: flex;
+  column-gap: 50px;
+}
+
+#label1{
+  font-family: 'Instrument Serif', serif;
+  font-size: 20px;
+  color: white;
+}
+
+#label2{
+  font-family: 'Instrument Serif', serif;
+  font-size: 20px;
+  color: white;
+}
+
+#label3{
+  font-family: 'Instrument Serif', serif;
+  font-size: 20px;
+  color: white;
+}
+
+#label4{
+  font-family: 'Instrument Serif', serif;
+  font-size: 20px;
+  color: white;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  background: white;
+  height: 10px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  background: magenta;
+  stroke: white;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: magenta;
+  stroke: white;
+  cursor: pointer;
+}
+
+#saveflower {
+  position: absolute;
+  font-family: 'Instrument Serif', serif;
+  font-size: 20px;
+  color: white;
+  background: magenta;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+
